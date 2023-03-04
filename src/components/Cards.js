@@ -4,6 +4,7 @@ import "../styles/Cards.css"
 function Cards({item,handleClick}) {
   const { title, author, price, img} = item;
   
+  
   return (
     <div className="cards">
       <div className="image_box">
