@@ -1,0 +1,70 @@
+section {
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+.cards {
+  width: 250px;
+  padding: 25px;
+}
+.cards:hover {
+  box-shadow: 0 10px 10px 10px rgba(9, 9, 9, 0.36);
+  cursor: pointer;
+  transition: ease 0.5s;
+  border-radius: 15px;
+}
+.image_box img {
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+}
+.details p:nth-child(1) {
+  font-weight: bold;
+}
+.details p:nth-child(1) {
+  color: gray;
+  font-size: 0.8rem;
+}
+.details p:nth-child(1) {
+  color: gray;
+  font-weight: bold;
+}
+.details button {
+  padding: 5px 10px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+}
+.details button:active {
+  background-color: rgb(241, 135, 116);
+  box-shadow: 0 5px 5px 5px #0010;
+}
+
+@media screen and (max-width: 900px) {
+  section {
+    width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+    section {
+      width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: block;
+    align-items: center;
+    text-align: center;
+    }
+    
+  }
