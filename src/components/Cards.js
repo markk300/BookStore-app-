@@ -7,7 +7,7 @@ function Cards({item,handleClick}) {
   return (
     <div className="cards">
       <div className="image_box">
-        <img src={img}></img>
+        <img src={img} alt="slikaaa"></img>
       </div>
       <div className="details">
         <p>{title}</p>
